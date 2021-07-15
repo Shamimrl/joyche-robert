@@ -10837,6 +10837,7 @@ button:hover,
 .navbar {
   background-color: transparent;
   background-image: linear-gradient(180deg, #0C49C2 0%, #083999 100%);
+  border-bottom: 1px solid #cec7c7;
 }
 .navbar .navbar-brand {
   overflow: hidden;
@@ -11038,43 +11039,45 @@ hr {
 }
 
 /************* Speciality section style start **************/
-.speciality-section {
-  padding: 6rem;
-  background-color: rgba(93, 114, 128, 0.05);
-}
-.speciality-section .heading-section {
+.heading-section {
   padding-bottom: 3rem;
 }
-.speciality-section .heading-section .heading-content h3, .speciality-section .heading-section .heading-content .h3 {
+.heading-section .heading-content h3, .heading-section .heading-content .h3 {
   font-size: 14px;
   font-weight: 700;
   line-height: 15px;
   color: #1a5ce0;
   letter-spacing: 2px;
 }
-.speciality-section .heading-section .heading-content h1, .speciality-section .heading-section .heading-content .h1 {
+.heading-section .heading-content h1, .heading-section .heading-content .h1 {
   margin: 20px 0;
   font-size: 3rem;
   line-height: 53px;
   font-weight: 700;
   color: #000f23;
 }
-.speciality-section .heading-section .heading-content p {
+.heading-section .heading-content p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 30px;
   color: #67757f;
 }
-.speciality-section .card-section .card-wrapper {
+
+.speciality-section {
+  padding: 6rem;
+  background-color: rgba(93, 114, 128, 0.05);
+}
+
+.card-section .card-wrapper {
   background-color: #ffffff;
   padding: 3rem 1.4rem 3rem 2rem;
   border-radius: 1rem;
   box-shadow: 0 40px 120px -40px rgba(93, 114, 128, 0.24);
 }
-.speciality-section .card-section .card-wrapper:hover {
+.card-section .card-wrapper:hover {
   box-shadow: 0 60px 100px -5px rgba(113, 139, 156, 0.24);
 }
-.speciality-section .card-section span {
+.card-section span {
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -11083,27 +11086,183 @@ hr {
   line-height: 4.5rem;
   transition: all 0.3s ease;
 }
-.speciality-section .card-section span .custom {
+.card-section span .custom {
   font-size: 2rem;
   font-weight: 400;
   line-height: 2rem;
   color: #1a5ce0;
 }
-.speciality-section .card-section span:hover {
+.card-section span:hover {
   transform: scale(1.1);
 }
-.speciality-section .card-section h2, .speciality-section .card-section .h2 {
+.card-section h2, .card-section .h2 {
   font-size: 1.5rem;
   line-height: 1.6rem;
   font-weight: 700;
   color: #000f23;
   margin: 1.7rem 0 0.7rem 0;
 }
-.speciality-section .card-section p {
+.card-section p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.9rem;
   color: #67757f;
+}
+
+/*************** testimonial section style start *****************/
+.testimonial-section {
+  padding: 6rem 0;
+}
+.testimonial-section .heading-content {
+  margin-bottom: 4.5rem;
+}
+.testimonial-section .card-wrapper {
+  box-shadow: none;
+  border: 1px solid #e2dcdc;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  padding-left: 2.5rem;
+  padding-right: 2rem;
+  width: 95%;
+  transition: all 0.3s ease;
+}
+.testimonial-section .card-wrapper span {
+  background: none;
+  text-align: left;
+  margin-bottom: 0rem;
+}
+.testimonial-section .card-wrapper span .custom {
+  text-align: left;
+  font-size: 24px;
+}
+.testimonial-section .card-wrapper h3, .testimonial-section .card-wrapper .h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  color: #1a1a1a;
+  margin: 0;
+}
+.testimonial-section .card-wrapper .sub-title {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 13px;
+  color: #cad0db;
+}
+
+/************  quote-request-section style start ************/
+.quote-request-section {
+  background-color: transparent;
+  background-image: url(../images/bg-01-free-img.jpg);
+}
+.quote-request-section .overlay {
+  background-color: #000f2393;
+  background-image: url(../images/grad-white-curve-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.quote-request-section .img-wrapper {
+  margin-top: -5rem;
+}
+.quote-request-section .img-wrapper img {
+  width: 95%;
+  height: auto;
+}
+.quote-request-section .quote-content {
+  margin-left: 8rem;
+}
+.quote-request-section .quote-content h3, .quote-request-section .quote-content .h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #cad0db;
+  letter-spacing: 2px;
+}
+.quote-request-section .quote-content h1, .quote-request-section .quote-content .h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #ffffff;
+  margin: 1.5rem 0;
+}
+.quote-request-section .quote-form .form-group {
+  margin-bottom: 15px;
+  width: 100%;
+}
+.quote-request-section .quote-form .form-group input {
+  padding: 10px 13px;
+  border: none;
+  border-radius: 3px;
+  width: 90%;
+}
+.quote-request-section .quote-form button {
+  padding: 0.9rem 1.5rem;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+/*********** Footer section style start ************/
+.footer-section {
+  background: #242a36;
+  padding: 6rem 0;
+}
+.footer-section .header {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}
+.footer-section .footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-section .footer-content .brand-section .logo {
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+}
+.footer-section .footer-content .brand-section .logo img {
+  width: 80%;
+}
+.footer-section .footer-content .brand-section p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #cad0db;
+}
+.footer-section .footer-content .contact-info li a {
+  text-decoration: none;
+  color: #cad0db;
+}
+.footer-section .footer-content .contact-info li a span {
+  margin-right: 10px;
+}
+.footer-section .footer-content .services li {
+  margin-bottom: 10px;
+  color: #cad0db;
+}
+.footer-section .footer-content .Get-in-touch p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #cad0db;
+}
+.footer-section .footer-content .Get-in-touch .social-section span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: blue;
+  margin-right: 15px;
+}
+.footer-section .footer-content .Get-in-touch .social-section span .custom {
+  font-size: 20px;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */
