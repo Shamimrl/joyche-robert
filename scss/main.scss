@@ -108,6 +108,9 @@ button,
 
 /** All custom css **/
 
+@import "./contact";
+@import "./services";
+
 /******** navbar style start *******/
 
 .navbar{
@@ -451,12 +454,14 @@ hr{
 
 /************  quote-request-section style start ************/
 .quote-request-section{
-  background-color: transparent;
   background-image: url(../images/bg-01-free-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 
   & .overlay{
-    background-color: #000f2393;
+    background-color: #000f23b9;
     background-image: url(../images/grad-white-curve-bg.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -469,44 +474,45 @@ hr{
       height: auto;
     }
   }
-  & .quote-content{
-    margin-left: 8rem;
-    h3{
-      font-size: 14px;
-      font-weight: 700;
-      line-height: 15px;
-      color: #cad0db;
-      letter-spacing: 2px;
-    }
-    h1{
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 35px;
-      color: #ffffff;
-      margin: 1.5rem 0;
+
+}
+.quote-content{
+  margin-left: 8rem;
+  h3{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15px;
+    color: #cad0db;
+    letter-spacing: 2px;
+  }
+  h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #ffffff;
+    margin: 1.5rem 0;
+  }
+}
+.quote-form{
+  
+  .form-group{
+    margin-bottom: 15px;
+    width: 100%;
+
+    input{
+      padding: 10px 13px;
+      border: none;
+      border-radius: 3px;
+      width: 90%;
     }
   }
-  & .quote-form{
-    
-    .form-group{
-      margin-bottom: 15px;
-      width: 100%;
-
-      input{
-        padding: 10px 13px;
-        border: none;
-        border-radius: 3px;
-        width: 90%;
-      }
-    }
-    button{
-      padding: .9rem 1.5rem;
-      font-size: 14px;
-      font-weight: 600;
-      line-height: 14px;
-      color: #ffffff;
-      border-radius: 3px;
-    }
+  button{
+    padding: .9rem 1.5rem;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #ffffff;
+    border-radius: 3px;
   }
 }
 
@@ -589,3 +595,230 @@ hr{
   }
 }
 
+
+
+
+
+/************ Contact page style Code **************/
+
+.nav-parent{
+  
+  .overlay1{
+    
+    background-image: url(https://websitedemos.net/accountant-02/wp-content/uploads/sites/623/2018/08/bg-06-free-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  
+  .overlay2{
+    
+    width: 100%;
+    height: 100%;
+    background-color: #0c49c2e0;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    background-image: url(../images/grad-white-curve-bg.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar{
+    background-color: transparent;
+    background-image: none;
+  }
+  & .contact-banner{
+    padding: 8rem 0;
+
+    h3{
+      font-family: Poppins, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 15px;
+      letter-spacing: 2px;
+      color: #cad0db;
+      text-transform: uppercase;
+    }
+    h1{
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 88px;
+      color: #ffffff;
+    }
+  }
+}
+
+/*********** main contact section style start ***********/
+
+.main-contact-section{
+  padding: 6rem 0em;
+  .b-right{
+    border-right: 1px solid rgb(201, 195, 195);
+  }
+  .contact-details{
+    padding-left: 4rem;
+    h3{
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 15px;
+      color: #1a5ce0;
+      letter-spacing: 2px;
+    }
+    h1{
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 35px;
+      color: #000f23;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    ul{
+      padding: 0;
+      li{
+        margin-bottom: 1.5rem;
+        list-style: none;
+        .bg-circle{
+          display: inline-block;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          background-color: #becdebec;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          
+          i{
+            font-size: 16px;
+            font-weight: 700;
+            color: #1a5ce0;
+          }
+        }
+        h2{
+          font-size: 18px;
+          font-weight: 700;
+          line-height: 20px;
+          color: #000f23;
+        }
+        p{
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 30px;
+          color: #67757f;
+        }
+    
+      }
+    }
+    .social-icon{
+      display: flex;
+      span{
+        width: 40px;
+        height: 40px;
+        margin-right: 1rem;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(60, 60, 223);
+        .custom{
+          color: #fff;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .quote-content{
+    padding-left: 0;
+    margin-left: 4rem;
+    .form-group{
+      margin-bottom: 20px;
+    }
+    h3{
+      color: #0C49C2;
+    }
+    h1{
+      color: #000;
+    }
+    input{
+      border: 1px solid rgb(221, 221, 221);
+      background: rgb(250, 250, 250);
+      width: 80%;
+    }
+  }
+}
+
+/************ Google Map section ************/
+
+.google-map-section{
+  img{
+    width: 100%;
+    height: 550px;
+  }
+}
+
+
+
+
+
+/******************* Service Page style *********************/
+
+/************ Service navbar ************/
+.service-page-navbar{
+  background-image: url("../images/bg-03-free-img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/************* service section *************/
+
+.service-page-service{
+  .service-content{
+    margin: -40px 0;
+  }
+  & h2{
+    padding-bottom: 20px;
+  }
+  h3{
+    margin: 25px 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #000f23;
+  }
+}
+
+/*********** service page quote section ***********/
+.service-page-quote{
+  .service-page-overlay{
+    background: #535151b9;
+    .quote-content{
+      padding: 6rem 0;
+      margin-left: 0;
+      width: 70%;
+
+      h1{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 53px;
+        color: #ffffff;
+      }
+      p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+        color: #cad0db;
+      }
+      button{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 14px;
+        color: #fff;
+        margin-top: 20px;
+      }
+    }
+  }
+}

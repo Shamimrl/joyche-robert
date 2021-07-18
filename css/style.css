@@ -11151,11 +11151,13 @@ hr {
 
 /************  quote-request-section style start ************/
 .quote-request-section {
-  background-color: transparent;
   background-image: url(../images/bg-01-free-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .quote-request-section .overlay {
-  background-color: #000f2393;
+  background-color: #000f23b9;
   background-image: url(../images/grad-white-curve-bg.svg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -11167,34 +11169,36 @@ hr {
   width: 95%;
   height: auto;
 }
-.quote-request-section .quote-content {
+
+.quote-content {
   margin-left: 8rem;
 }
-.quote-request-section .quote-content h3, .quote-request-section .quote-content .h3 {
+.quote-content h3, .quote-content .h3 {
   font-size: 14px;
   font-weight: 700;
   line-height: 15px;
   color: #cad0db;
   letter-spacing: 2px;
 }
-.quote-request-section .quote-content h1, .quote-request-section .quote-content .h1 {
+.quote-content h1, .quote-content .h1 {
   font-size: 32px;
   font-weight: 700;
   line-height: 35px;
   color: #ffffff;
   margin: 1.5rem 0;
 }
-.quote-request-section .quote-form .form-group {
+
+.quote-form .form-group {
   margin-bottom: 15px;
   width: 100%;
 }
-.quote-request-section .quote-form .form-group input {
+.quote-form .form-group input {
   padding: 10px 13px;
   border: none;
   border-radius: 3px;
   width: 90%;
 }
-.quote-request-section .quote-form button {
+.quote-form button {
   padding: 0.9rem 1.5rem;
   font-size: 14px;
   font-weight: 600;
@@ -11263,6 +11267,203 @@ hr {
   color: #fff;
   height: 40px;
   line-height: 40px;
+}
+
+/************ Contact page style Code **************/
+.nav-parent .overlay1 {
+  background-image: url(https://websitedemos.net/accountant-02/wp-content/uploads/sites/623/2018/08/bg-06-free-img.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-parent .overlay2 {
+  width: 100%;
+  height: 100%;
+  background-color: #0c49c2e0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-image: url(../images/grad-white-curve-bg.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-parent .navbar {
+  background-color: transparent;
+  background-image: none;
+}
+.nav-parent .contact-banner {
+  padding: 8rem 0;
+}
+.nav-parent .contact-banner h3, .nav-parent .contact-banner .h3 {
+  font-family: Poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2px;
+  color: #cad0db;
+  text-transform: uppercase;
+}
+.nav-parent .contact-banner h1, .nav-parent .contact-banner .h1 {
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 88px;
+  color: #ffffff;
+}
+
+/*********** main contact section style start ***********/
+.main-contact-section {
+  padding: 6rem 0em;
+}
+.main-contact-section .b-right {
+  border-right: 1px solid #c9c3c3;
+}
+.main-contact-section .contact-details {
+  padding-left: 4rem;
+}
+.main-contact-section .contact-details h3, .main-contact-section .contact-details .h3 {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15px;
+  color: #1a5ce0;
+  letter-spacing: 2px;
+}
+.main-contact-section .contact-details h1, .main-contact-section .contact-details .h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 35px;
+  color: #000f23;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.main-contact-section .contact-details ul {
+  padding: 0;
+}
+.main-contact-section .contact-details ul li {
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+.main-contact-section .contact-details ul li .bg-circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #becdebec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-contact-section .contact-details ul li .bg-circle i {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a5ce0;
+}
+.main-contact-section .contact-details ul li h2, .main-contact-section .contact-details ul li .h2 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000f23;
+}
+.main-contact-section .contact-details ul li p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #67757f;
+}
+.main-contact-section .contact-details .social-icon {
+  display: flex;
+}
+.main-contact-section .contact-details .social-icon span {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3c3cdf;
+}
+.main-contact-section .contact-details .social-icon span .custom {
+  color: #fff;
+  font-size: 16px;
+}
+.main-contact-section .quote-content {
+  padding-left: 0;
+  margin-left: 4rem;
+}
+.main-contact-section .quote-content .form-group {
+  margin-bottom: 20px;
+}
+.main-contact-section .quote-content h3, .main-contact-section .quote-content .h3 {
+  color: #0C49C2;
+}
+.main-contact-section .quote-content h1, .main-contact-section .quote-content .h1 {
+  color: #000;
+}
+.main-contact-section .quote-content input {
+  border: 1px solid #dddddd;
+  background: #fafafa;
+  width: 80%;
+}
+
+/************ Google Map section ************/
+.google-map-section img {
+  width: 100%;
+  height: 550px;
+}
+
+/******************* Service Page style *********************/
+/************ Service navbar ************/
+.service-page-navbar {
+  background-image: url("../images/bg-03-free-img.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/************* service section *************/
+.service-page-service .service-content {
+  margin: -40px 0;
+}
+.service-page-service h2, .service-page-service .h2 {
+  padding-bottom: 20px;
+}
+.service-page-service h3, .service-page-service .h3 {
+  margin: 25px 0;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000f23;
+}
+
+/*********** service page quote section ***********/
+.service-page-quote .service-page-overlay {
+  background: #535151b9;
+}
+.service-page-quote .service-page-overlay .quote-content {
+  padding: 6rem 0;
+  margin-left: 0;
+  width: 70%;
+}
+.service-page-quote .service-page-overlay .quote-content h1, .service-page-quote .service-page-overlay .quote-content .h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 53px;
+  color: #ffffff;
+}
+.service-page-quote .service-page-overlay .quote-content p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #cad0db;
+}
+.service-page-quote .service-page-overlay .quote-content button {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 14px;
+  color: #fff;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
